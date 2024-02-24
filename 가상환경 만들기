@@ -5,13 +5,13 @@ sudo apt-get install python3
 sudo apt-get install python3-venv
 
 # 가상환경 만들기
-python3 -m venv py_ms
+python3 -m venv py_mr
 
 # 가상환경 활성화
-source py_ms/bin/activate
+source py_mr/bin/activate
 
 # 가상환경 비활성화
 deactivate
 
 # 가상환경 삭제
-sudo rm -rf py_ms
+sudo rm -rf py_mr
